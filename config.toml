@@ -114,8 +114,8 @@ version = "auto"
 rv-brand = "ReVanced"
 #patches-source = ""
 #integrations-source = ""
-excluded-patches = ""
-included-patches = ""
+excluded-patches = "vanced-microg-support custom-package-name music-microg-support bypass-certificate-checks"
+included-patches = "amoled background-play bitrate-default-value compact-header certificate-spoof codecs-unlock custom-branding-music-mmt enable-color-match-player enable-compact-dialog enable-force-minimized-player enable-landscape-mode enable-opus-codec exclusive-audio-playback hide-get-premium hide-music-ads hide-upgrade-button upgrade-button-remover minimized-playback-music music-settings optimize-resource-music remember-video-quality share-button-hook spoof-app-version"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
@@ -130,8 +130,8 @@ version = "auto"
 rv-brand = "ReVanced"
 #patches-source = ""
 #integrations-source = ""
-excluded-patches = ""
-included-patches = ""
+excluded-patches = "vanced-microg-support custom-package-name music-microg-support bypass-certificate-checks"
+included-patches = "amoled background-play bitrate-default-value compact-header certificate-spoof codecs-unlock custom-branding-music-mmt enable-color-match-player enable-compact-dialog enable-force-minimized-player enable-landscape-mode enable-opus-codec exclusive-audio-playback hide-get-premium hide-music-ads hide-upgrade-button upgrade-button-remover minimized-playback-music music-settings optimize-resource-music remember-video-quality share-button-hook spoof-app-version"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
@@ -146,8 +146,8 @@ version = "auto"
 rv-brand = "ReVanced"
 #patches-source = ""
 #integrations-source = ""
-excluded-patches = ""
-included-patches = ""
+excluded-patches = "vanced-microg-support custom-package-name music-microg-support bypass-certificate-checks"
+included-patches = "amoled background-play bitrate-default-value compact-header certificate-spoof codecs-unlock custom-branding-music-mmt enable-color-match-player enable-compact-dialog enable-force-minimized-player enable-landscape-mode enable-opus-codec exclusive-audio-playback hide-get-premium hide-music-ads hide-upgrade-button upgrade-button-remover minimized-playback-music music-settings optimize-resource-music remember-video-quality share-button-hook spoof-app-version"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
@@ -162,8 +162,8 @@ version = "auto"
 rv-brand = "ReVanced"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
-excluded-patches = ""
-included-patches = ""
+excluded-patches = "vanced-microg-support custom-package-name music-microg-support bypass-certificate-checks"
+included-patches = "amoled background-play bitrate-default-value compact-header certificate-spoof codecs-unlock custom-branding-music-mmt enable-color-match-player enable-compact-dialog enable-force-minimized-player enable-landscape-mode enable-opus-codec exclusive-audio-playback hide-get-premium hide-music-ads hide-upgrade-button upgrade-button-remover minimized-playback-music music-settings optimize-resource-music remember-video-quality share-button-hook spoof-app-version"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
@@ -178,8 +178,8 @@ version = "auto"
 rv-brand = "ReVanced"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
-excluded-patches = ""
-included-patches = ""
+excluded-patches = "vanced-microg-support custom-package-name music-microg-support bypass-certificate-checks"
+included-patches = "amoled background-play bitrate-default-value compact-header certificate-spoof codecs-unlock custom-branding-music-mmt enable-color-match-player enable-compact-dialog enable-force-minimized-player enable-landscape-mode enable-opus-codec exclusive-audio-playback hide-get-premium hide-music-ads hide-upgrade-button upgrade-button-remover minimized-playback-music music-settings optimize-resource-music remember-video-quality share-button-hook spoof-app-version"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
@@ -194,8 +194,8 @@ version = "auto"
 rv-brand = "ReVanced"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
-excluded-patches = ""
-included-patches = ""
+excluded-patches = "vanced-microg-support custom-package-name music-microg-support bypass-certificate-checks"
+included-patches = "amoled background-play bitrate-default-value compact-header certificate-spoof codecs-unlock custom-branding-music-mmt enable-color-match-player enable-compact-dialog enable-force-minimized-player enable-landscape-mode enable-opus-codec exclusive-audio-playback hide-get-premium hide-music-ads hide-upgrade-button upgrade-button-remover minimized-playback-music music-settings optimize-resource-music remember-video-quality share-button-hook spoof-app-version"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
@@ -204,18 +204,202 @@ module-prop-name = "ytmrv-magisk"
 [Messenger-arm64-v8a]
 enabled = true
 app-name = "Messenger"
+arch = "arm64-v8a"
+build-mode = "both"
+included-patches = "hide-inbox-ads disable-typing-indicator disable-switching-emoji-to-sticker-in-message-input-field"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.facebook.orca/"
 uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
-arch = "arm64-v8a"
 
 [Messenger-arm-v7a]
 enabled = true
 app-name = "Messenger"
+arch = "arm-v7a"
+build-mode = "both"
+included-patches = "hide-inbox-ads disable-typing-indicator disable-switching-emoji-to-sticker-in-message-input-field"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 apkmonk-dlurl = "https://www.apkmonk.com/app/com.facebook.orca/"
 uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
+
+[Backdrops-arm64-v8a]
+enabled = true
+app-name = "Backdrops"
+arch = "arm64-v8a"
+build-mode = "both"
+version = "auto"
+rv-brand = "ReVanced"
+excluded-patches = ""
+included-patches = "pro-unlock"
+exclusive-patches = false
+uptodown-dlurl = "https://backdrops.en.uptodown.com/android"
+apkmonk-dlurl = ""
+apkmirror-dlurl = ""
+module-prop-name = "bdrop-magisk"
+
+[Backdrops-arm-v7a]
+enabled = true
+app-name = "Backdrops"
 arch = "arm-v7a"
+build-mode = "both"
+version = "auto"
+rv-brand = "ReVanced"
+excluded-patches = ""
+included-patches = "pro-unlock"
+exclusive-patches = false
+uptodown-dlurl = "https://backdrops.en.uptodown.com/android"
+apkmonk-dlurl = ""
+apkmirror-dlurl = ""
+module-prop-name = "bdrop-magisk"
+
+[TickTick-arm64-v8a]
+#com.ticktick.task/
+enabled = true
+app-name = "TickTick"
+arch = "arm64-v8a"
+build-mode = "both"
+version = "auto"
+rv-brand = "ReVanced"
+excluded-patches = ""
+included-patches = "unlock-themes"
+exclusive-patches = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/appest-inc/ticktick-to-do-list-with-reminder-day-planner/"
+apkmonk-dlurl = "https://www.apkmonk.com/app/com.ticktick.task/"
+uptodown-dlurl = "https://ticktick.en.uptodown.com/android"
+module-prop-name = "ttick-magisk"
+
+[TickTick-arm-v7a]
+#com.ticktick.task/
+enabled = true
+app-name = "TickTick"
+arch = "arm-v7a"
+build-mode = "both"
+version = "auto"
+rv-brand = "ReVanced"
+excluded-patches = ""
+included-patches = "unlock-themes"
+exclusive-patches = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/appest-inc/ticktick-to-do-list-with-reminder-day-planner/"
+apkmonk-dlurl = "https://www.apkmonk.com/app/com.ticktick.task/"
+uptodown-dlurl = "https://ticktick.en.uptodown.com/android"
+module-prop-name = "ttick-magisk"
+
+[Recorder]
+#com.google.android.apps.recorder
+enabled = true
+app-name = "Recorder"
+arch = "arm64-v8a"
+build-mode = "both"
+version = "auto"
+rv-brand = "ReVanced"
+excluded-patches = ""
+included-patches = "remove-device-restrictions"
+exclusive-patches = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/google-recorder/"
+apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.recorder/"
+uptodown-dlurl = "https://opnemer.en.uptodown.com/android"
+module-prop-name = "rec-magisk"
+
+[NovaLauncher]
+#com.teslacoilsw.launcher
+enabled = true
+app-name = "Nova Launcher"
+arch = ""
+build-mode = "both"
+version = "auto"
+rv-brand = "ReVanced"
+excluded-patches = ""
+included-patches = "unlock-prime"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/teslacoil-software/nova-launcher/"
+apkmonk-dlurl = "https://www.apkmonk.com/app/com.teslacoilsw.launcher/"
+uptodown-dlurl = "https://nova-launcher.en.uptodown.com/android"
+module-prop-name = "nova-magisk"
+
+[MemeGenerator]
+#com.zombodroid.MemeGenerator
+enabled = true
+app-name = "Meme Generator"
+arch = "universal"
+build-mode = "both"
+version = "auto"
+rv-brand = "ReVanced"
+excluded-patches = ""
+included-patches = "unlock-pro"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/zombodroid/meme-generator-free/"
+apkmonk-dlurl = "https://www.apkmonk.com/app/com.zombodroid.MemeGenerator/"
+uptodown-dlurl = "https://meme-generator-free.en.uptodown.com/android"
+module-prop-name = "memegen-magisk"
+
+[IconPackStudio]
+#ginlemon.iconpackstudio
+enabled = true
+app-name = "Icon Pack Studio"
+arch = ""
+build-mode = "both"
+version = "auto"
+rv-brand = "ReVanced"
+excluded-patches = ""
+included-patches = "unlock-pro"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
+apkmonk-dlurl = "https://www.apkmonk.com/app/ginlemon.iconpackstudio/"
+uptodown-dlurl = "https://icon-pack-studio.en.uptodown.com/android"
+module-prop-name = "ips-magisk"
+
+[VSCOEditor-both]
+#com.vsco.cam
+enabled = true
+app-name = "VSCO Editor"
+arch = "both"
+build-mode = "both"
+version = "auto"
+rv-brand = "ReVanced"
+excluded-patches = ""
+included-patches = "unlock-pro"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/vsco/vsco-cam/"
+apkmonk-dlurl = "https://www.apkmonk.com/app/com.vsco.cam/"
+uptodown-dlurl = "https://vsco-cam.en.uptodown.com/android"
+module-prop-name = "vsco-magisk"
+
+[VSCOEditor-universal]
+#com.vsco.cam
+enabled = true
+app-name = "VSCO Editor"
+arch = "universal"
+build-mode = "both"
+version = "auto"
+rv-brand = "ReVanced"
+excluded-patches = ""
+included-patches = "unlock-pro"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/vsco/vsco-cam/"
+apkmonk-dlurl = "https://www.apkmonk.com/app/com.vsco.cam/"
+uptodown-dlurl = "https://vsco-cam.en.uptodown.com/android"
+module-prop-name = "vsco-magisk"
+
+[MyExpenses]
+#org.totschnig.myexpenses
+enabled = true
+app-name = "Expenses"
+arch = ""
+build-mode = "both"
+version = "auto"
+rv-brand = "ReVanced"
+excluded-patches = ""
+included-patches = "unlock-pro"
+apkmirror-dlurl = ""
+apkmonk-dlurl = "https://www.apkmonk.com/app/org.totschnig.myexpenses/"
+uptodown-dlurl = "https://my-expenses.en.uptodown.com/android"
+module-prop-name = "myexpenses-magisk"
+
+
+##############################
+########   DISABLED   ########
+##############################
+[Tasker]
+enabled = false
+apkmirror-dlurl = "https://www.apkmirror.com/apk/joaomgcd/tasker/"
+
+[Photomath]
+enabled = false
+apkmonk-dlurl = "https://www.apkmonk.com/app/com.microblink.photomath/"
 
 [Twitter]
 enabled = false
@@ -237,8 +421,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/tiktok-pte-ltd/tik-tok-includin
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
-
-
 [Spotify]
 enabled = false
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
@@ -248,10 +430,6 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/citra-emulator/citra-emulator/"
 arch = "arm64-v8a"
 
-[Backdrops]
-enabled = false
-uptodown-dlurl = "https://backdrops.en.uptodown.com/android"
-
 [WarnWetter]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/deutscher-wetterdienst/warnwetter/"
@@ -259,20 +437,3 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/deutscher-wetterdienst/warnwett
 [Windyapp]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
-
-[IconPackStudio]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/smart-launcher-team/icon-pack-studio/"
-
-[TickTick]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/appest-inc/ticktick-to-do-list-with-reminder-day-planner/"
-arch = "arm64-v8a"
-
-[Tasker]
-enabled = false
-apkmirror-dlurl = "https://www.apkmirror.com/apk/joaomgcd/tasker/"
-
-[Photomath]
-enabled = false
-apkmonk-dlurl = "https://www.apkmonk.com/app/com.microblink.photomath/"
