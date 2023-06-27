@@ -8,7 +8,7 @@ build-mindetach-module = true
 [YouTube-universal]
 enabled = true
 app-name = "YouTube"
-arch = "universal"
+#arch = "universal"
 build-mode = "both"
 version = "auto"
 #patches-source = ""
@@ -22,7 +22,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 module-prop-name = "ytrv-magisk"
 
 [YouTube-arm64-v8a]
-enabled = true
+enabled = false
 app-name = "YouTube"
 arch = "arm64-v8a"
 build-mode = "both"
@@ -38,7 +38,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 module-prop-name = "ytrv-magisk"
 
 [YouTube-arm-v7a]
-enabled = true
+enabled = false
 app-name = "YouTube"
 arch = "arm-v7a"
 build-mode = "both"
@@ -57,7 +57,7 @@ module-prop-name = "ytrv-magisk"
 [YouTube-Extended-universal]
 enabled = true
 app-name = "YouTube"
-arch = "universal"
+#arch = "universal"
 build-mode = "both"
 version = "auto"
 rv-brand = "ReVanced Extended"
@@ -72,7 +72,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 module-prop-name = "ytrv-magisk"
 
 [YouTube-Extended-arm64-v8a]
-enabled = true
+enabled = false
 app-name = "YouTube"
 arch = "arm64-v8a"
 build-mode = "both"
@@ -89,7 +89,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 module-prop-name = "ytrv-magisk"
 
 [YouTube-Extended-arm-v7a]
-enabled = true
+enabled = false
 app-name = "YouTube"
 arch = "arm-v7a"
 build-mode = "both"
