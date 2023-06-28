@@ -105,23 +105,7 @@ apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 module-prop-name = "ytrv-magisk"
 
-[Music-Universal]
-enabled = true
-app-name = "Music"
-arch = "universal"
-build-mode = "both"
-version = "auto"
-rv-brand = "ReVanced"
-#patches-source = ""
-#integrations-source = ""
-excluded-patches = "vanced-microg-support custom-package-name music-microg-support bypass-certificate-checks"
-included-patches = "amoled background-play bitrate-default-value compact-header certificate-spoof codecs-unlock custom-branding-music-mmt enable-color-match-player enable-compact-dialog enable-force-minimized-player enable-landscape-mode enable-opus-codec exclusive-audio-playback hide-get-premium hide-music-ads hide-upgrade-button upgrade-button-remover minimized-playback-music music-settings optimize-resource-music remember-video-quality share-button-hook spoof-app-version"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.music/"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-module-prop-name = "ytmrv-magisk"
-
-[Music-arm64-v8a]
+[YTMusic-arm64-v8a]
 enabled = true
 app-name = "Music"
 arch = "arm64-v8a"
@@ -137,7 +121,7 @@ apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.mus
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 module-prop-name = "ytmrv-magisk"
 
-[Music-arm-v7a]
+[YTMusic-arm-v7a]
 enabled = true
 app-name = "Music"
 arch = "arm-v7a"
@@ -153,10 +137,10 @@ apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.mus
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 module-prop-name = "ytmrv-magisk"
 
-[Music-Extended-Universal]
-enabled = true
+[YTMusic-Extended-Universal]
+enabled = false
 app-name = "Music"
-arch = "universal"
+#arch = "universal"
 build-mode = "both"
 version = "auto"
 rv-brand = "ReVanced"
@@ -169,7 +153,7 @@ apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.mus
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 module-prop-name = "ytmrv-magisk"
 
-[Music-Extended-arm64-v8a]
+[YTMusic-Extended-arm64-v8a]
 enabled = true
 app-name = "Music"
 arch = "arm64-v8a"
@@ -185,7 +169,7 @@ apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.mus
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 module-prop-name = "ytmrv-magisk"
 
-[Music-Extended-arm-v7a]
+[YTMusic-Extended-arm-v7a]
 enabled = true
 app-name = "Music"
 arch = "arm-v7a"
@@ -202,6 +186,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 module-prop-name = "ytmrv-magisk"
 
 [Messenger-arm64-v8a]
+#com.facebook.orca
 enabled = true
 app-name = "Messenger"
 arch = "arm64-v8a"
@@ -212,16 +197,18 @@ apkmonk-dlurl = "https://www.apkmonk.com/app/com.facebook.orca/"
 uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 
 [Messenger-arm-v7a]
+#com.facebook.orca
 enabled = true
 app-name = "Messenger"
 arch = "arm-v7a"
 build-mode = "both"
 included-patches = "hide-inbox-ads disable-typing-indicator disable-switching-emoji-to-sticker-in-message-input-field"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
-apkmonk-dlurl = "https://www.apkmonk.com/app/com.facebook.orca/"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
+#apkmonk-dlurl = "https://www.apkmonk.com/app/com.facebook.orca/"
 uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 
 [Backdrops-arm64-v8a]
+#com.backdrops.wallpapers
 enabled = true
 app-name = "Backdrops"
 arch = "arm64-v8a"
@@ -232,11 +219,12 @@ excluded-patches = ""
 included-patches = "pro-unlock"
 exclusive-patches = false
 uptodown-dlurl = "https://backdrops.en.uptodown.com/android"
-apkmonk-dlurl = ""
-apkmirror-dlurl = ""
+apkmonk-dlurl = "https://www.apkmonk.com/app/com.backdrops.wallpapers/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/backdrops/backdrops-wallpapers/"
 module-prop-name = "bdrop-magisk"
 
 [Backdrops-arm-v7a]
+#com.backdrops.wallpapers
 enabled = true
 app-name = "Backdrops"
 arch = "arm-v7a"
@@ -247,8 +235,8 @@ excluded-patches = ""
 included-patches = "pro-unlock"
 exclusive-patches = false
 uptodown-dlurl = "https://backdrops.en.uptodown.com/android"
-apkmonk-dlurl = ""
-apkmirror-dlurl = ""
+apkmonk-dlurl = "https://www.apkmonk.com/app/com.backdrops.wallpapers/"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/backdrops/backdrops-wallpapers/"
 module-prop-name = "bdrop-magisk"
 
 [TickTick-arm64-v8a]
