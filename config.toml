@@ -55,7 +55,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 module-prop-name = "ytrv-magisk"
 
 [YouTube-Extended-universal]
-enabled = true
+enabled = false
 app-name = "YouTube"
 #arch = "universal"
 build-mode = "both"
@@ -132,8 +132,8 @@ rv-brand = "ReVanced"
 #integrations-source = ""
 excluded-patches = "vanced-microg-support custom-package-name music-microg-support bypass-certificate-checks"
 included-patches = "amoled background-play bitrate-default-value compact-header certificate-spoof codecs-unlock custom-branding-music-mmt enable-color-match-player enable-compact-dialog enable-force-minimized-player enable-landscape-mode enable-opus-codec exclusive-audio-playback hide-get-premium hide-music-ads hide-upgrade-button upgrade-button-remover minimized-playback-music music-settings optimize-resource-music remember-video-quality share-button-hook spoof-app-version"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.music/"
+#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+#apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 module-prop-name = "ytmrv-magisk"
 
