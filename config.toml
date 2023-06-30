@@ -6,7 +6,7 @@ build-mindetach-module = true
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
 
 [YouTube-universal]
-enabled = true
+enabled = false
 app-name = "YouTube"
 #arch = "universal"
 build-mode = "both"
@@ -54,8 +54,20 @@ apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 module-prop-name = "ytrv-magisk"
 
+[YouTube-Extended]
+app-name = "YouTube"
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
+excluded-patches = "hide-captions-button swipe-controls vanced-microg-support custom-branding-name"
+included-patches = "copy-video-url custom-video-buffer disable-fullscreen-panels hide-fullscreen-panels disable-player-popup-panels hide-auto-player-popup-panels disable-shorts-on-startup external-downloads hdr-auto-brightness overlay-buttons hide-get-premium hide-ads hide-general-ads hide-video-ads hide-endscreen-cards hide-endscreen-overlay hide-filmstrip-overlay hide-player-overlay hide-player-overlay-filter hide-floating-microphone-button hide-load-more-button hide-watermark hide-channel-watermark optimize-resource minimized-playback enable-minimized-playback open-links-externally premium-heading protobuf-spoof force-premium-heading remember-video-quality remove-player-controls-background return-youtube-dislike sponsorblock custom-branding-icon-mmt force-hide-player-button-background hide-player-button-background materialyou settings theme"
+exclusive-patches = false
+rv-brand = "ReVanced Extended"
+module-prop-name = "ytrve-magisk"
+build-mode = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+
 [YouTube-Extended-universal]
-enabled = false
+enabled = true
 app-name = "YouTube"
 #arch = "universal"
 build-mode = "both"
@@ -105,37 +117,16 @@ apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.youtube/"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 module-prop-name = "ytrv-magisk"
 
-[YTMusic-arm64-v8a]
-enabled = true
+[Music-Extended]
 app-name = "Music"
-arch = "arm64-v8a"
-build-mode = "both"
-version = "auto"
-rv-brand = "ReVanced"
-#patches-source = ""
-#integrations-source = ""
+patches-source = "inotia00/revanced-patches"
+integrations-source = "inotia00/revanced-integrations"
 excluded-patches = "vanced-microg-support custom-package-name music-microg-support bypass-certificate-checks"
 included-patches = "amoled background-play bitrate-default-value compact-header certificate-spoof codecs-unlock custom-branding-music-mmt enable-color-match-player enable-compact-dialog enable-force-minimized-player enable-landscape-mode enable-opus-codec exclusive-audio-playback hide-get-premium hide-music-ads hide-upgrade-button upgrade-button-remover minimized-playback-music music-settings optimize-resource-music remember-video-quality share-button-hook spoof-app-version"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.music/"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-module-prop-name = "ytmrv-magisk"
-
-[YTMusic-arm-v7a]
-enabled = true
-app-name = "Music"
-arch = "arm-v7a"
-build-mode = "both"
-version = "auto"
-rv-brand = "ReVanced"
-#patches-source = ""
-#integrations-source = ""
-excluded-patches = "vanced-microg-support custom-package-name music-microg-support bypass-certificate-checks"
-included-patches = "amoled background-play bitrate-default-value compact-header certificate-spoof codecs-unlock custom-branding-music-mmt enable-color-match-player enable-compact-dialog enable-force-minimized-player enable-landscape-mode enable-opus-codec exclusive-audio-playback hide-get-premium hide-music-ads hide-upgrade-button upgrade-button-remover minimized-playback-music music-settings optimize-resource-music remember-video-quality share-button-hook spoof-app-version"
-#apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-#apkmonk-dlurl = "https://www.apkmonk.com/app/com.google.android.apps.youtube.music/"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-module-prop-name = "ytmrv-magisk"
+arch = "both"
 
 [YTMusic-Extended-Universal]
 enabled = false
@@ -154,7 +145,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 module-prop-name = "ytmrv-magisk"
 
 [YTMusic-Extended-arm64-v8a]
-enabled = true
+enabled = false
 app-name = "Music"
 arch = "arm64-v8a"
 build-mode = "both"
@@ -170,7 +161,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 module-prop-name = "ytmrv-magisk"
 
 [YTMusic-Extended-arm-v7a]
-enabled = true
+enabled = false
 app-name = "Music"
 arch = "arm-v7a"
 build-mode = "both"
@@ -190,6 +181,7 @@ module-prop-name = "ytmrv-magisk"
 enabled = true
 app-name = "Messenger"
 arch = "arm64-v8a"
+dpi = "360-480dpi"
 build-mode = "both"
 included-patches = "hide-inbox-ads disable-typing-indicator disable-switching-emoji-to-sticker-in-message-input-field"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
@@ -201,6 +193,7 @@ uptodown-dlurl = "https://facebook-messenger.en.uptodown.com/android"
 enabled = true
 app-name = "Messenger"
 arch = "arm-v7a"
+dpi = "120-160dpi"
 build-mode = "both"
 included-patches = "hide-inbox-ads disable-typing-indicator disable-switching-emoji-to-sticker-in-message-input-field"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
@@ -219,7 +212,7 @@ excluded-patches = ""
 included-patches = "pro-unlock"
 exclusive-patches = false
 uptodown-dlurl = "https://backdrops.en.uptodown.com/android"
-apkmonk-dlurl = "https://www.apkmonk.com/app/com.backdrops.wallpapers/"
+#apkmonk-dlurl = "https://www.apkmonk.com/app/com.backdrops.wallpapers/"
 #apkmirror-dlurl = "https://www.apkmirror.com/apk/backdrops/backdrops-wallpapers/"
 module-prop-name = "bdrop-magisk"
 
